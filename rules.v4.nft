@@ -1,4 +1,5 @@
 # Translated by iptables-restore-translate v1.8.4 on Thu Sep  2 13:52:42 2021
+flush ruleset
 add table ip security
 add chain ip security INPUT { type filter hook input priority 0; policy accept; }
 add chain ip security FORWARD { type filter hook forward priority 0; policy accept; }
